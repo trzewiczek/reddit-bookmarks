@@ -1,0 +1,15 @@
+{
+  "name": "reddit-bookmarks",
+  "version": "0.0.1",
+  "description": "Reddit Bookmaks Library",
+  "main": "index.js",
+  "repository": "git@github.com:trzewiczek/reddit-bookmarks.git",
+  "author": "trzewiczek",
+  "license": "MIT",
+  "scripts": {
+    "go": "tsc && node ./build/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.5"
+  }
+}
