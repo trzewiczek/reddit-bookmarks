@@ -20,7 +20,11 @@
     "project": "./tsconfig.json"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
     "@types/jest": "^26.0.20",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
     "awesome-typescript-loader": "^5.2.1",
     "html-webpack-plugin": "^5.1.0",
     "jest": "^26.6.3",
@@ -33,6 +37,8 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "ts-standard": "^10.0.0"
   }
 }

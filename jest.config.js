@@ -13,6 +13,8 @@ module.exports = {
   testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$',
   transform: {
     '^.+\\.tsx?$': 'ts-jest'
-  }
-
+  },
+  setupFilesAfterEnv: [
+    '@testing-library/jest-dom/extend-expect'
+  ]
 }
